@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I MAP</title>
+    <title>searchbar</title>
+    <link href="searchbar.css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="h1" class="text-light">I MAP</h1>
+
+    <div id="map"></div>
+    <div class="main">
+      <script src="script.js"></script>
+      <script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNvu5qTUCHO9d46KIxX9x0Z72HC2ztb14&libraries=places&callback=initMap&v=weekly"
+        defer
+      ></script>
+      <input
+        id="search"
+        class="search"
+        type="text"
+        name="box"
+        placeholder="Search..."
+      />
+      <p id ="no-found">Not Found !</p>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <p class="text-light text-center">
+            &copy; Copyright reserved. Designed & Developed by
+            <a href="mailto:malikazzam84@gmail.com">Malik Azzam </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
